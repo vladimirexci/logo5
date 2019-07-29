@@ -18,8 +18,8 @@ html, body{
 }
 
 .logo {
-	width: 500px;
-	height: 500px;
+	min-width: 400px;
+	height: 400px;
 	background-color: #00b1dd;
 	padding: 34px;
 	border-radius: 15%;
@@ -29,24 +29,24 @@ html, body{
 .logo:after {
 	content: '';
 	position: absolute;
-	width: 100px;
-	height: 147px;
+	width: 85px;
+	height: 110px;
 	background-color: #00b1dd;
 	border-bottom-right-radius: 40%;
 	border-top-right-radius: 40%;
-	top: 181px;
+	top: 153px;
 	left: 0;
 }
 
 .logo:before {
 	content: '';
 	position: absolute;
-	width: 100px;
-	height: 147px;
+	width: 85px;
+	height: 110px;
 	background-color: #00b1dd;
 	border-bottom-left-radius: 40%;
 	border-top-left-radius: 40%;
-	top: 181px;
+	top: 153px;
 	right: 0;
 }
 
@@ -61,8 +61,8 @@ html, body{
 }
 
 .logo__center-item1 {
-	width: 193px;
-	height: 269px;
+	width: 150px;
+	height: 211px;
 	background-color: #00b1dd;
 	padding: 14px;
 	border-radius: 43%;
@@ -86,13 +86,13 @@ html, body{
 }
 
 .logo__center-item4 {
-	width: 52px;
-	height: 52px;
+	width: 32px;
+	height: 32px;
 	border-bottom: 14px solid #fff;
 	border-left: 14px solid #fff;
 	border-bottom-left-radius: 76%;
-	top: 65px;
-	left: 1px;
+	top: 42px;
+	left: -4px;
 	position: relative;
 }
 
@@ -103,8 +103,8 @@ html, body{
 	height: 14px;
 	border-radius: 50%;
 	background-color: #fff;
-	top: 38px;
-	left: 31px;
+	top: -8px;
+	left: -14px;
 }
 
 .logo__center-item4:before {
@@ -114,6 +114,6 @@ html, body{
 	height: 14px;
 	border-radius: 50%;
 	background-color: #fff;
-	top: -6px;
-	left: -14px;
+	top: 18px;
+	left: 11px;
 }
